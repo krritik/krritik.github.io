@@ -1,1 +1,24 @@
-theme: jekyll-theme-merlot
+title: Personal Blog
+description: >
+  This is all about my personal experience, learning and fun in programming journey. 
+permalink: ':title/'
+baseurl: "/blog"
+url: ""
+
+video: mountains.mp4 
+
+author-pic: ritik.jpg
+author-name: Ritik Kumar 
+about-author: Second year undergraduate in IIT Kharagpur
+email: ritikburnwal@gmail.com 
+
+paginate: 12
+paginate_path: /page:num/
+
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
