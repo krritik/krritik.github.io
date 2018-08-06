@@ -3,7 +3,7 @@ description: >
   This is all about my personal experience, learning and fun in programming journey. 
 permalink: ':title/'
 baseurl: "/blog"
-url: ""
+url: "https://krritik.github.io"
 
 video: mountains.mp4 
 
