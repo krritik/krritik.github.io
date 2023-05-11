@@ -48,7 +48,7 @@ linkedin_username: krritik
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Ritik and I'm a software engineer.  also have experience making software and web apps. I have an inclination towards problem-solving skills and coding practices. Interested in software development and blockchain.
+  Hi, my name's Ritik Kumar and I'm a software engineer. have experience making software and web apps. I have an inclination towards problem-solving skills and coding practices. Interested in software development and blockchain.
 
   I am most skilled in: <mark>Coding</mark> and <mark>Sleeping</mark>
 
@@ -58,39 +58,97 @@ content:
     content:
       - layout: top-middle
         title: 
-        link: github.com/krritik/BEAASPlus
-        # link_text: Project Website
+        # link: github.com/krritik/BEAASPlus
+        sub_title: BEAASPlus
+        caption: September 2020 - May 2021
         additional_links:
           - title:  krritik/BEAASPlus
             icon: fab fa-github
             url: github.com/krritik/BEAASPlus
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Designed and developed a cloud-based Attribute-Based Access Control (ABAC) service that leverages 
+          blockchain technology to provide a high level of security assurance. Using smart contract functionalities 
+          on the Ethereum blockchain. I implemented ABAC state changes to ensure that all access control changes 
+          are tamper-proof and transparently recorded on the blockchain. In addition, I developed a protocol that enables 
+          real-time verification of data updates on the blockchain by enterprise applications, allowing for transparency 
+          and ensuring that access control changes made by users are legitimate.
+
+          To test the functionality and efficiency of the system, I created a prototype using the Rinkeby Ethereum test network 
+          and Amazon Web Services. This experience allowed me to gain a deep understanding of blockchain technology and its practical 
+          applications in providing secure access control solutions.
+
+      - layout: top-middle
+        title: 
+        # link: github.com/krritik/BEAASPlus
+        sub_title: Meet@Hobby
+        caption: Jan 2020 - Mar 2020
+        # additional_links:
+        #   - title:  krritik/BEAASPlus
+        #     icon: fab fa-github
+        #     url: github.com/krritik/BEAASPlus
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Empowering hobbyists to connect and collaborate through Meet@Hobby.
         description: | # this will include new lines to allow paragraphs
-          Developed a cloud service for Attribute-Based Access Control (ABAC) with security guarantee provided through the use of blockchain, specifically Ethereum. Implemented ABAC state changes using smart contract functionalities on the blockchain, ensuring a tamper-proof record of access control changes.
-          Designed a protocol that allowed enterprise application to verify whether data updated in the blockchain is same as those done by its users or not in real-time, providing real-time verification and transparency to access control changes.
-          Developed a prototype system using the Rinkeby Ethereum test network and Amazon Web Services to test and verify the functionality and efficiency of the system
+          Created Meet@Hobby, a full-stack web application that facilitates connections between individuals who share 
+          common interests. The app includes features such as group formation, event organization, and real-time chat.
+          Implemented the application using the Django framework and utilized technologies such as Python, MySQL, and HTML 
+          to build the robust backend. 
+          
+          Additionally, I also developed an Android version of the app using Java and SQLite that mirrors the web version's 
+          functionalities, thus providing a seamless user experience across platforms. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Microsoft Corporation
-        link: https://www.microsoft.com/en-in/
-        # link_text: boringcompany.com
+        title: Microsoft Azure Migrate 
+        # caption: Hyderabad, India
+        link: https://azure.microsoft.com/en-in/products/azure-migrate
         sub_title: Software Enginner
         caption: June 2021 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+           A tool designed to simplify and accelerate migration to Azure.
         description: | # this will include new lines to allow paragraphs
-          Contributed and took ownership of Azure Migrate’s SQL agent, which tracks the migration of SQL servers from on-premises servers running on VMWare and Hyper-V to Azure. Played a key role in the successful transition of the SQL feature for Azure Migrate from Public Preview to GA.
-          Created the End-to-End Test project for the Azure Migrate SQL Agent from scratch. Designed and wrote test cases covering all the major scenarios and deployed them to CloudTest, ensuring comprehensive testing of the SQL agent.
-          Separated the codebase for SQL Agent from Azure Migrate codebase and refactored and converted the SQL Agent codebase from .Net Framework to .Net 6.
-          Implemented support for Named Pipe and Fallback features, which increased the funnel for SQL Server deep discovery and helped to ensure seamless migration to Azure.
+          I played a key role in developing and launching the SQL features for Azure Migrate. I took ownership 
+          of Azure Migrate's SQL agent, which tracks the migration of SQL servers from on-premises servers to Azure, 
+          and ensured a successful transition from Public Preview to GA. My responsibilities included creating the 
+          End-to-End Test project for the Azure Migrate SQL Agent, designing and writing test cases covering all major 
+          scenarios, and restructuring the SQL Agent codebase to make it more mockable and writing unit tests. 
+          This helped identify and resolve issues early on in the development process, leading to a more stable and 
+          reliable product.
 
+          I also separated the codebase for SQL Agent from Azure Migrate codebase, converted it from .Net Framework to .Net 6,
+          and implemented support for Named Pipe and Fallback features. In addition, I was on Primary on-call and DRI for Azure 
+          Migrate SQL, attending customer calls to understand and solve their problems.
+
+          Overall, my contributions has been instrumental in the successful launch of the SQL feature for Azure Migrate. This 
+          experience gave me a deep understanding of customer needs and helped me develop strong communication and problem-solving skills.
+
+      - layout: left
+        title: Microsoft Fluent UI
+        # caption: Hyderabad, India
+        link: https://developer.microsoft.com/en-us/fluentui
+        sub_title: Software Engineering Intern
+        caption: May 2020 - July 2020
+        quote: >
+          An open-source design system from Microsoft that enables developers to create consistent and accessible user interfaces across 
+          platforms.
+        description: | # this will include new lines to allow paragraphs
+          I had the opportunity to work on the development of FluentUI Android, which is an open-source design library that provides an 
+          OfficeUI experience. During my tenure, I implemented important missing features such as button widgets, Topsheet behavior 
+          with and without persistent options, Sidesheet behavior, top and side dialogs, TabBar layout, and anchor view support in sheets.
+          To aid in the adoption and usage of these widgets, I created corresponding demos for each widget implemented. These demos helped 
+          showcase various use cases and made it easier for other developers to integrate them into their applications.
+
+          Additionally, I worked on the initial setup of Token Pipeline for FluentUI Android, which served as the base for Stardust merger 
+          of FluentUI library across all platforms. This helped reduce tasks for developers and made my widgets work via Token pipeline. 
+          My contributions to the project helped make it more comprehensive and user-friendly.
+       
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -113,7 +171,7 @@ content:
       - Biking and Road Trips
 
 # Footer
-footer_show_references: true
+# footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
