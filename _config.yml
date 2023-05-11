@@ -48,7 +48,7 @@ linkedin_username: krritik
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Ritik Burnwal and I'm a software engineer.  also have experience making software and web apps. I have an inclination towards problem-solving skills and coding practices. Interested in software development and blockchain.
+  Hi, my name's Ritik Kumar and I'm a software engineer. have experience making software and web apps. I have an inclination towards problem-solving skills and coding practices. Interested in software development and blockchain.
 
   I am most skilled in: <mark>Coding</mark> and <mark>Sleeping</mark>
 
@@ -58,29 +58,57 @@ content:
     content:
       - layout: top-middle
         title: 
-        link: github.com/krritik/BEAASPlus
-        # link_text: Project Website
+        # link: github.com/krritik/BEAASPlus
+        sub_title: BEAASPlus
+        caption: September 2020 - May 2021
         additional_links:
           - title:  krritik/BEAASPlus
             icon: fab fa-github
             url: github.com/krritik/BEAASPlus
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Designed and developed a cloud-based Attribute-Based Access Control (ABAC) service that leverages 
+          blockchain technology to provide a high level of security assurance. Using smart contract functionalities 
+          on the Ethereum blockchain. I implemented ABAC state changes to ensure that all access control changes 
+          are tamper-proof and transparently recorded on the blockchain. In addition, I developed a protocol that enables 
+          real-time verification of data updates on the blockchain by enterprise applications, allowing for transparency 
+          and ensuring that access control changes made by users are legitimate.
+
+          To test the functionality and efficiency of the system, I created a prototype using the Rinkeby Ethereum test network 
+          and Amazon Web Services. This experience allowed me to gain a deep understanding of blockchain technology and its practical 
+          applications in providing secure access control solutions.
+
+      - layout: top-middle
+        title: 
+        # link: github.com/krritik/BEAASPlus
+        sub_title: Meet@Hobby
+        caption: Jan 2020 - Mar 2020
+        # additional_links:
+        #   - title:  krritik/BEAASPlus
+        #     icon: fab fa-github
+        #     url: github.com/krritik/BEAASPlus
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Empowering hobbyists to connect and collaborate through Meet@Hobby.
         description: | # this will include new lines to allow paragraphs
-          Developed a cloud service for Attribute-Based Access Control (ABAC) with security guarantee provided through the use of blockchain, specifically Ethereum. Implemented ABAC state changes using smart contract functionalities on the blockchain, ensuring a tamper-proof record of access control changes.
-          Designed a protocol that allowed enterprise application to verify whether data updated in the blockchain is same as those done by its users or not in real-time, providing real-time verification and transparency to access control changes.
-          Developed a prototype system using the Rinkeby Ethereum test network and Amazon Web Services to test and verify the functionality and efficiency of the system
+          Created Meet@Hobby, a full-stack web application that facilitates connections between individuals who share 
+          common interests. The app includes features such as group formation, event organization, and real-time chat.
+          Implemented the application using the Django framework and utilized technologies such as Python, MySQL, and HTML 
+          to build the robust backend. 
+          
+          Additionally, I also developed an Android version of the app using Java and SQLite that mirrors the web version's 
+          functionalities, thus providing a seamless user experience across platforms. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Microsoft Corporation
+        title: Microsoft Azure Migrate 
         # caption: Hyderabad, India
-        # link: https://www.microsoft.com/en-in/
+        link: https://azure.microsoft.com/en-in/products/azure-migrate
         sub_title: Software Enginner
         caption: June 2021 - Present
         quote: >
@@ -102,9 +130,9 @@ content:
           experience gave me a deep understanding of customer needs and helped me develop strong communication and problem-solving skills.
 
       - layout: left
-        title: Microsoft Corporation
+        title: Microsoft Fluent UI
         # caption: Hyderabad, India
-        # link: https://www.microsoft.com/en-in/
+        link: https://developer.microsoft.com/en-us/fluentui
         sub_title: Software Engineering Intern
         caption: May 2020 - July 2020
         quote: >
@@ -143,7 +171,7 @@ content:
       - Biking and Road Trips
 
 # Footer
-footer_show_references: true
+# footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
